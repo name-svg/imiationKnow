@@ -1,0 +1,129 @@
+.up{
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:5;
+    box-sizing: border-box;
+    padding:0 0.2rem;
+    height:0.5rem;
+    background:#01a3ee;
+}
+.ll,.cen,.rr{
+    float:left;
+    line-height:0.5rem;
+    color:#fff;
+}
+.up .ll{
+    margin-right:0.2rem
+}
+.up .cen{
+    font-size:0.2rem;
+}
+.up .rr{
+    font-size:0.3rem;
+    float:right;
+}
+.long{
+    text-align:left;
+    background:#fff;
+}
+.long dt{
+    font-size:0.16rem;
+    padding-left:0.15rem;
+    height:0.4rem;
+    line-height:0.4rem;
+    color:#383838;
+    border-bottom:1px solid #dedede;
+    border-top:1px solid #dedede;
+}
+.long h6 div:first-of-type{
+    float:left;
+}
+.long h6 div:first-of-type img{
+    width:0.35rem;
+    height:0.35rem;
+    border-radius:50%;
+    margin-top:0.1rem;
+}
+.long h6 div:first-of-type span{
+    margin-left:0.06rem;
+    font-size:0.16rem;
+    font-weight:bold;
+}
+.long h6 div:last-of-type span{
+    color:#b8b8b8;
+}
+.long h6 div:last-of-type i{
+  margin-left:0.05rem;
+    color:#b8b8b8;
+}
+.long h6{
+    line-height:0.45rem;
+    box-sizing: border-box;
+    padding:0 0.1rem;
+    overflow:hidden;
+}
+.long h6 div:last-of-type{
+    float:right;
+}
+.review,.reply{
+    padding:0 0.4rem 0 0.55rem;
+    line-height:0.23rem;
+    font-size:0.15rem;
+    color:#3d3d3d;
+}
+.reply{
+    color:#67666b;
+    overflow:hidden;
+}
+.hh{
+    height:0.5rem;
+}
+.reply strong{
+    color:#000;
+}
+
+.base{
+    padding:0 0.4rem 0 0.55rem;
+    height:0.5rem;
+    line-height:0.5rem;
+    color:#b4b4b4;
+}
+.base .time{
+    float:left;
+}
+.base .unfold{
+    float:right;
+    background:#d9e7f0;
+    line-height:0.2rem;
+    color:#747e87;
+    margin-top:0.15rem;
+    padding:0 0.1rem;
+}
+.short{
+    overflow:hidden;
+}
+.short dt span{
+    float:right;
+    width:0.3rem;
+    height:0.3rem;
+    background:url(../img/5_03.jpg) no-repeat 50% 50%;
+    background-size:0.1rem 0.1rem;
+}
+.short dt .spp{
+    background:url(../img/t_03.jpg) no-repeat 50% 50%;
+    background-size:0.1rem 0.1rem;
+}
+.none{
+    position:relative;
+    width:100%;
+    background:url(../img/long_03.jpg) no-repeat 50% 50%;
+    background-size:1rem 1.2rem;
+}
+.none span{
+    position:absolute;
+    top: 366px;
+    left: 130px;
+    font-size:0.16rem;
+    color:#e1e1e1;
+}

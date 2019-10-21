@@ -1,0 +1,50 @@
+.coll{
+    height:0.5rem;
+    background:#01a3ee
+}
+.coll span{
+    float:left;
+    line-height:0.5rem;
+    font-size:0.25rem;
+    color:#fff;
+    margin-left:0.1rem;
+    margin-right:0.2rem;
+}
+.coll h5{
+    float:left;
+    line-height:0.5rem;
+    font-size:0.15rem;
+    color:#fff;
+}
+.collUl img{
+    width:100%;
+    height:100%;
+}
+.collUl li{
+    border-radius:0.06rem;
+    margin-top:0.05rem;
+    box-sizing: border-box;
+    padding:0.1rem 0.2rem 0 0.2rem;
+    height:1rem;
+    background:#fff;
+    box-shadow:0 0 0.02rem #c6c6c6 ;
+}
+.collUl{
+    box-sizing: border-box;
+    padding:0 0.1rem;
+}
+.collUl h6{
+    line-height:0.25rem;
+    font-size:0.15rem;
+    text-align:left;
+    width:2rem;
+    box-sizing: border-box;
+    margin-right:0.2rem;
+    /*padding:0 0.1rem;*/
+    float:left;
+}
+.collUl div{
+    float:left;
+    width:0.9rem;
+    height:0.8rem;
+}
